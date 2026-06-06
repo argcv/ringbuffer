@@ -1,0 +1,56 @@
+goos: linux
+goarch: amd64
+pkg: ringbuffer-benchmark
+cpu: AMD EPYC 7713 64-Core Processor                
+BenchmarkCopySmallnest_4K-2    	    2250	    594721 ns/op	1763.14 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    1824	    569717 ns/op	1840.52 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    1914	    593203 ns/op	1767.65 MB/s	 2097585 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    1545	    714613 ns/op	1467.33 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    1952	    693130 ns/op	1512.81 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    1849	    628541 ns/op	1668.27 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    2104	    518024 ns/op	2024.18 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    2578	    623350 ns/op	1682.16 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    1755	    642964 ns/op	1630.85 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_4K-2    	    2403	    582763 ns/op	1799.32 MB/s	 2097584 B/op	      17 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2348	    593035 ns/op	1768.15 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    3208	    481277 ns/op	2178.74 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2347	    518836 ns/op	2021.02 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2287	    472146 ns/op	2220.87 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2793	    458589 ns/op	2286.53 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2422	    462939 ns/op	2265.04 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2644	    527652 ns/op	1987.25 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2516	    606039 ns/op	1730.21 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    2240	    517136 ns/op	2027.66 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopySmallnest_64K-2   	    3186	    435439 ns/op	2408.09 MB/s	 2130352 B/op	      14 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2301	    517101 ns/op	2027.80 MB/s	 2097736 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2266	    501198 ns/op	2092.14 MB/s	 2097736 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2468	    501072 ns/op	2092.67 MB/s	 2097736 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2563	    475850 ns/op	2203.59 MB/s	 2097736 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2352	    524393 ns/op	1999.60 MB/s	 2097736 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2632	    483670 ns/op	2167.96 MB/s	 2097737 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2247	    574945 ns/op	1823.78 MB/s	 2097737 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2414	    547442 ns/op	1915.41 MB/s	 2097736 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    1950	    581963 ns/op	1801.79 MB/s	 2097737 B/op	      19 allocs/op
+BenchmarkCopyArgcv_4K-2        	    2307	    466780 ns/op	2246.40 MB/s	 2097736 B/op	      19 allocs/op
+BenchmarkCopyArgcv_64K-2       	    3218	    368298 ns/op	2847.08 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    3112	    368582 ns/op	2844.89 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    3058	    387124 ns/op	2708.63 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    3180	    473139 ns/op	2216.21 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    2143	    528830 ns/op	1982.82 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    2162	    550196 ns/op	1905.82 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    1816	    552247 ns/op	1898.74 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    1962	    521680 ns/op	2010.00 MB/s	 2130505 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    2857	    463463 ns/op	2262.48 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkCopyArgcv_64K-2       	    3090	    491377 ns/op	2133.96 MB/s	 2130504 B/op	      16 allocs/op
+BenchmarkIoCopy_1M-2           	    6004	    336674 ns/op	3114.51 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    4130	    326247 ns/op	3214.06 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    4620	    316515 ns/op	3312.88 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    3439	    336054 ns/op	3120.26 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    3346	    312153 ns/op	3359.18 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    6114	    289769 ns/op	3618.67 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    3283	    349287 ns/op	3002.05 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    3373	    327518 ns/op	3201.58 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    4185	    332078 ns/op	3157.62 MB/s	 1048672 B/op	       3 allocs/op
+BenchmarkIoCopy_1M-2           	    3750	    283122 ns/op	3703.62 MB/s	 1048672 B/op	       3 allocs/op
+PASS
+ok  	ringbuffer-benchmark	83.460s

@@ -1,0 +1,66 @@
+goos: linux
+goarch: amd64
+pkg: ringbuffer-benchmark
+cpu: AMD EPYC 7713 64-Core Processor                
+BenchmarkIntQueue_Generic-2             	22163760	        52.39 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	23124639	        51.99 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	22782249	        51.55 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	23748438	        53.56 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	20513230	        52.29 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	23451124	        52.34 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	22990154	        52.14 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	23606174	        53.25 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	20111620	        51.88 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_Generic-2             	23175711	        51.37 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	21846135	        56.72 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	22326382	        55.70 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	21262930	        56.30 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	18137344	        55.38 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	20817361	        56.18 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	20294536	        55.00 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	21956557	        55.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	19282916	        54.59 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	21973431	        55.14 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIntQueue_ByteWorkaround-2      	22357170	        56.00 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	23083598	        51.65 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	23195494	        51.10 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	22658228	        50.71 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	21712893	        50.92 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	23481687	        52.36 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	24019936	        51.85 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	23360961	        54.20 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	23386576	        51.27 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	23766800	        51.78 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_Generic-2          	24066642	        51.01 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	24481399	        51.18 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	24493836	        50.15 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	22853298	        51.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	23219794	        51.83 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	21480511	        52.25 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	23588899	        57.11 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	23115126	        51.30 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	21890448	        50.66 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	23785357	        51.31 ns/op	       0 B/op	       0 allocs/op
+BenchmarkStructQueue_ByteWorkaround-2   	23425387	        50.34 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11803683	       101.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	12179295	        99.62 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11677774	       102.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11788020	       101.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11388985	       100.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11791509	       102.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11703568	       102.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	12073852	       100.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11737832	        99.02 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_All-2                 	11561208	       101.8 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIterator_BytesCopy-2           	21224052	        52.51 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	23851158	        58.07 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	22515834	        53.10 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	18436564	        54.29 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	22148199	        50.78 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	23960317	        50.43 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	23826435	        49.67 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	20286460	        50.42 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	25029132	        49.74 ns/op	      48 B/op	       1 allocs/op
+BenchmarkIterator_BytesCopy-2           	24470181	        49.49 ns/op	      48 B/op	       1 allocs/op
+PASS
+ok  	ringbuffer-benchmark	78.086s
